@@ -1,12 +1,42 @@
 {
   "pages":[
-    "pages/index/index",
-    "pages/logs/logs"
+
+    "pages/diaryHome/diaryHome",
+    "pages/noteHome/noteHome",
+    "pages/settingHome/settingHome",
+        "pages/index/index"
   ],
   "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#f4ea2a",
+    "navigationBarTitleText": "点滴",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#f4ea2a",
+    "backgroundColor": "white",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/diaryHome/diaryHome",
+        "text": "点滴日记",
+        "iconPath": "images/日记1.png",
+        "selectedIconPath": "images/日记2.png"
+      },
+      {
+        "pagePath": "pages/noteHome/noteHome",
+        "text": "点滴笔记",
+        "iconPath": "images/记事本1.png",
+        "selectedIconPath": "images/记事本2.png"
+      },
+            {
+        "pagePath":     "pages/settingHome/settingHome",
+        "text": "设置",
+        "iconPath": "images/设置1.png",
+        "selectedIconPath": "images/设置2.png"
+      }
+    ]
   }
 }

@@ -1,0 +1,14 @@
+<import src="/components/diaryCard/diaryCard.wxml"></import>
+
+<view class="container">
+    <template is="diary-card"></template>
+    <template is="diary-card"></template>
+    <template is="diary-card"></template>
+    <template is="diary-card"></template>
+    <template is="diary-card"></template>
+    <navigator url="/pages/index/index">
+      <view class="add-nav">
+        <image class="add-image" mode="aspectFit" src="/images/add.png"></image>
+      </view>
+  </navigator>
+</view>

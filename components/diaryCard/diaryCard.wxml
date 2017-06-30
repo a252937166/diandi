@@ -1,0 +1,13 @@
+<template name="diary-card">
+  <view class="diary-card" >
+    <view class="head-view">
+      <icon type="waiting_circle" color="#fff" size="30"></icon>
+      <text class="time-text" >2017-6-30 17:58</text>
+      <image class="weather-image" mode="scaleToFill" src="/images/rain.png"></image>
+      <image class="feel-image" src="/images/normal.png"></image>
+    </view>
+    <view class="content-view">
+      <text class="content-text"  maxlength="100">阿斯顿发撒旦发斯蒂芬一会啊搜房雅思四谛法发生的发生的发生的发生的发撒的发生的发生大发撒旦法师打发斯蒂芬阿斯顿发速度法师打法上的发阿斯顿发速度法师打法上的发阿斯顿发生大幅阿斯顿飞U盾翻译哦啊速度有覅哦啊啥地方哈搜地方哈斯蒂芬好事覅u了考试大佛个阿斯顿否爱搜ID富奥斯答复哦爱上答复哦个阿萨德佛个傲丝度佛阿斯顿飞 阿斯哦度发哈隧道后覅us和大佛一阿斯顿哈佛赛U盾哈佛天使爱士大夫还是得越发iOS的浴佛 </text>
+    </view>
+  </view>
+</template>

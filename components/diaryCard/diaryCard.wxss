@@ -1,0 +1,53 @@
+.diary-card{
+  height: 400rpx;
+  background-color: #f4ea2a;
+  border-radius: 8px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  box-shadow: 8px 12px 30px #ff9900;
+  padding: 10px 10px 10px 10px
+}
+.head-view {
+  padding-bottom: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 3px solid #eaff43;
+}
+.time-text{
+  font-weight: bold;
+  margin-left: 5px;
+  font-size: 32rpx
+}
+.weather-image{
+  margin-left: 90rpx;
+  width: 60rpx;
+  height: 60rpx;
+}
+.feel-image{
+  margin-left: 90rpx;
+  width: 60rpx;
+  height: 60rpx;
+}
+.content-view{
+  padding-top: 20rpx;
+}
+.content-text{
+
+    letter-spacing:6rpx;
+
+    font-size: 38rpx;
+
+    display: -webkit-box;
+
+    word-break: break-all;
+
+    text-overflow: ellipsis;
+
+    overflow: hidden;
+
+    -webkit-box-orient: vertical;
+
+    -webkit-line-clamp:5;
+}
