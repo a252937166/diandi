@@ -1,0 +1,10 @@
+<view class="head-view">
+    <icon type="waiting_circle" color="#fff" size="30"></icon>
+    <text class="time-text" >2017-6-30 17:58</text>
+    <image class="weather-image" mode="scaleToFill" src="/images/rain.png"></image>
+    <image class="feel-image" src="/images/normal.png"></image>
+</view>
+
+<view class="content-view">
+    <textarea class="content-textarea" maxlength="10000" auto-height="true"></textarea>
+</view>

@@ -4,7 +4,8 @@
     "pages/diaryHome/diaryHome",
     "pages/noteHome/noteHome",
     "pages/settingHome/settingHome",
-        "pages/index/index"
+    "pages/index/index",
+    "pages/diaryEdit/diaryEdit"
   ],
   "window":{
     "backgroundTextStyle": "dark",

@@ -6,7 +6,7 @@
     <template is="diary-card"></template>
     <template is="diary-card"></template>
     <template is="diary-card"></template>
-    <navigator url="/pages/index/index">
+    <navigator url="/pages/diaryEdit/diaryEdit">
       <view class="add-nav">
         <image class="add-image" mode="aspectFit" src="/images/add.png"></image>
       </view>
