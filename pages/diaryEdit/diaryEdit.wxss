@@ -10,10 +10,75 @@ page{
 .content-view{
   display: flex;
   flex-direction: column;
-   align-items: center;
+  align-items: center;
+  background: url(https://qiniu.ouyanglol.com/point.png) repeat-y 25px  top;
+}
+.head{
+  width: 720rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.text-title{
+  line-height: 120rpx;
+  font-weight: bold;
+  font-size: 50rpx;
+  letter-spacing:10rpx;
+  color:#fff;
+  align-items: center;
+}
+.content-calendar{
+  width: 120rpx;
+  height: 120rpx;
+  margin-bottom: 10rpx;
+}
+.edit{
+  width: 70rpx;
+  height: 70rpx;
+  margin-bottom: 10rpx;
+  align-items: center;
 }
 .content-textarea{
   display: flex;
-  overflow:visible;
-  background: url(../../images/conLine.jpg) repeat-y 0px top;
+  margin-left: 50rpx;
+  width: 620rpx;
+}
+.content-pic{
+  margin-left: -10rpx;
+  width: 150rpx;
+  height: 150rpx;
+  margin-bottom: 10rpx;
+}
+.pic-title{
+  line-height: 120rpx;
+  font-weight: bold;
+  font-size: 50rpx;
+  letter-spacing:10rpx;
+  color:#fff;
+}
+.end{
+  display: flex;
+  flex-direction: row;
+  width: 750rpx;
+  justify-content: flex-start;
+}
+.end-image{
+  width: 140rpx;
+  height: 140rpx;
+  margin-left: 15rpx;
+}
+
+.pic-list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.add-pic {
+  width: 150rpx;
+  height: 150rpx;
+}
+
+.list-pic{
+  margin-bottom: 20rpx;
 }

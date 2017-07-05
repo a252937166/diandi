@@ -6,5 +6,29 @@
 </view>
 
 <view class="content-view">
-    <textarea class="content-textarea" maxlength="10000" auto-height="true"></textarea>
+    <view class="head">
+        <image src="../../images/calendar.png" class="content-calendar"/>
+        <text class="text-title">6月30日</text>
+        <image src="../../images/editText.png" class="edit" bindtap="toEditWord" hidden="{{isEditWord}}"/>
+    </view>
+    <!-- 日记内容 -->
+    <textarea focus="{{textFocus}}" class="content-textarea" disabled="{{!isEditWord}}" maxlength="10000" auto-height="true" value="111111asdfasdfasdfasdfasdfasdfasdfasdfasdfasfdaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"></textarea>
+    <view class="head">
+        <image src="../../images/pic.png" class="content-pic"/>
+        <text class="pic-title">图片</text>
+        <view style="width:100rpx"></view>
+    </view>
+
+    <!-- 图片展示 -->
+    <view class="pic-list">
+        <image class="list-pic" mode="aspectFit" wx:for="{{diaryImgs}}" wx:for-item="item" wx:for-index="index" src="{{item}}"/>
+        <!-- 添加图片按钮 -->
+        <image class="add-pic" src="../../images/addPic.png" bindtap="uploadImg"/>
+    </view>
+    <view class="end" hidden="{{isEdit}}">
+        <image src="../../images/end.png" class="end-image"></image>
+    </view>
+    <view class="end" hidden="{{!isEdit}}">
+        <image src="../../images/save.png" class="end-image" bindtap="save"></image>
+    </view>
 </view>
